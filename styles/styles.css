@@ -1,0 +1,115 @@
+.banner {
+	padding: 0;
+	margin: 0;
+}
+
+.banner img {
+	display: none;
+}
+
+#quote {
+	display: none;
+}
+
+/* About me*/
+
+.about-me {
+	background: #e0d3c2;
+}
+
+.about-me img {
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+/* Contact */
+
+.contact{
+	padding: 15px;
+	margin: 25px;
+	text-align: center;
+}
+
+.contact-decoration {
+	display: none;
+}
+
+.contact-data  img {
+	width: 40%;
+}
+
+
+@media (min-width: 721px) {
+
+	.about-me {
+		text-align: center;
+	}
+
+	.about-me img {
+		width: 80%;
+		display: inline-block;
+		margin: 20px;
+		margin-bottom: 0;
+	}
+
+	#about-me-text {
+		display: inline-block;
+		padding-top: 0;
+		margin-top: -5px;
+	}
+
+}
+
+@media (min-width: 1025px) {
+
+	/* Banner */
+
+	.banner img {
+		display: block;
+		width: 100%;
+		position: relative;
+	}
+
+	#quote {
+		display: block;
+		position: absolute;
+		top: 50%;
+	}
+
+	/* About me*/
+
+	.about-me {
+		padding: 30px;
+	}
+
+	.about-me img {
+		width: 48%;
+		display: inline-block;
+		margin: 30px;
+		vertical-align: middle;
+	}
+
+	#about-me-text {
+		display: inline-block;
+		vertical-align:top;
+		margin: 30px;
+	}
+
+	/* Contact */
+
+	.contact {
+		padding: 30px;
+		margin: 50px;
+	}
+
+	.contact-decoration {
+		display: inline-block;
+		width: 30%;
+	}
+
+	.contact-data {
+		display: inline-block;
+	}
+
+}

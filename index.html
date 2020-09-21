@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Curriculum</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="theme-color" content="#504d48">
+
+	<link rel="shortcut icon" type="image/x-icon" href="img/icono.png">
+	<link rel="stylesheet" type="text/css" href="Orenji/Orenji.css">
+	<link rel="stylesheet" type="text/css" href="Orenji/Slides/Slides.css">
+	<link rel="stylesheet" type="text/css" href="Orenji/text-font/font-styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/ico-styles.css">
+
+</head>
+
+<body>
+	<div class="banner">
+		<img src="img/descarga.jpg">
+
+		<div class="navigation">
+
+			<span id="menu" class="icon-list"></span>
+
+			<nav id="nav" class="navigation-nav">
+				<ul>
+				    <li><a class="navigation-text select" id="inicio" href="#">Inicio</a></li>
+				    <li><a class="navigation-text" href="#">Sobre mi</a></li>
+				    <li><a class="navigation-text" href="#">Portafolio</a></li>
+					<li><a class="navigation-text" href="pag/contacto.html">Contacto</a></li>
+				</ul>
+
+			</nav>
+			
+		</div>
+
+		<div id="quote" class="box-1">
+			<p class='title'>´La sencillez es la máxima sofisticación.´</p>
+		</div>
+		
+	</div>
+
+	<div class="about-me">
+		<img src="img/me.jpg">
+
+		<div id="about-me-text" class="box-1">
+			<p class="title">¿Quién soy?</p>
+			<p class="text">
+				Hola me llamo Matias.<br>Soy programador web junior, con conocimientos en tecnologias como HTML, Css y Javascript, poseo una basta experiencia en la creacion de algoritmos  para resolucion de problemas logicos y matematicos, me gustan los desafios, soy una persona apacionada con ganas de aprender y de superarse dia a dia.<br>
+				Te invito a hacer click  en el boton de abajo para saber más sobre mí.
+			</p>
+
+			<div class="button">
+				<a href="">Sobre mí</a>
+			</div>
+		</div>
+		
+	</div>
+
+
+	<div class="briefcase">
+
+		<div class="briefcase-text-box">
+			<p class="briefcase-title">Portafolio</p>
+
+			<p class="briefcase-text">
+				Te invito pasar por mi sección de portafolio para poder ver a mayor detalles los distintos proyectos en los que eh trabajado.
+			</p>
+
+			<div id="" class="briefcase-button">
+				<a href="">Leer más</a>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="slides">
+				<img src="img/portafolio/game-console-2.png" alt="">
+				<img src="img/portafolio/pixel-draw-2.png" alt="">
+				<img src="img/portafolio/cinematico-5.png" alt="">
+				<img src="img/portafolio/pixel-draw-1.png" alt="">
+				<img src="img/portafolio/cinematico-6.png" alt="">
+			</div>
+		</div>
+		
+	</div>
+
+		<div class="contact">
+
+		<img class="contact-decoration" src="img/decoration-1.jpg">
+
+		<div class="contact-data">
+
+			<p class="title icon-torsos-male-female"> Contacto:</p>
+
+			<p class="text icon-email"> Correo</p>
+			
+			<a href="" class="text">matias.1993.romero@gmail.com</a>
+			<p class="text icon-linkedin-alt"> LinkedIn</p>
+
+			<img src="img/QR.jpg">
+
+		</div>
+
+		<img class="contact-decoration" src="img/decoration-2.jpg">
+
+	</div>
+
+	<footer class="footer">
+
+		<nav class="footer-nav">
+			<ul>
+			    <li><a class="footer-text icon-home" href="#banner" class="icon-home"> Inicio</a></li>
+			    <li><a class="footer-text icon-map-streamline-user" href="" class="icon-map-streamline-user"> Sobre mí</a></li>
+			    <li><a class="footer-text icon-terminal" href="" class="icon-terminal"> Portafolio</a></li>
+			</ul>
+		</nav>
+
+		<nav class="footer-nav">
+			<ul>
+			    <li><a class="footer-text icon-users"> Contactos</a></li>
+			    <li><a class="footer-text">matias.1993.romero@gmail.com</a></li>
+			    <li><a href="https://www.linkedin.com/in/matias-romero-851385198/" target="_blank" class="footer-text">Perfil de LinkedIn</a></li>
+			</ul>
+		</nav>
+
+	</footer>
+
+	<script src="script-code/sliding-text.js"></script>
+
+	<script src="Orenji/script/menu.js"></script>
+
+	<script src="Orenji/Slides/script/jquery-1.9.1.min.js"></script>
+	<script src="Orenji/Slides/script/jquery.slides.js"></script>
+
+	<script>
+ 
+		$(function(){
+		  $(".slides").slidesjs({
+		    play: {
+		      active: true,
+		        // [boolean] Generate the play and stop buttons.
+		        // You cannot use your own buttons. Sorry.
+		      effect: "slide",
+		        // [string] Can be either "slide" or "fade".
+		      interval: 3000,
+		        // [number] Time spent on each slide in milliseconds.
+		      auto: true,
+		        // [boolean] Start playing the slideshow on load.
+		      swap: true,
+		        // [boolean] show/hide stop and play buttons
+		      pauseOnHover: false,
+		        // [boolean] pause a playing slideshow on hover
+		      restartDelay: 2500
+		        // [number] restart delay on inactive slideshow
+		    }
+		  });
+		});
+
+	</script>
+
+</body>
+</html>
