@@ -14,6 +14,8 @@
 	<link rel="stylesheet" type="text/css" href="../styles/styles.css">
 	<link rel="stylesheet" type="text/css" href="../styles/ico-styles.css">
 
+	<link rel="stylesheet" type="text/css" href="../styles/temporal.css">
+
 </head>
 
 <body>
@@ -27,8 +29,8 @@
 				<ul>
 				    <li><a class="navigation-text" id="inicio" href="../index.html">Inicio</a></li>
 				    <li><a class="navigation-text" href="#">Sobre mi</a></li>
-				    <li><a class="navigation-text" href="#">Portafolio</a></li>
-					<li><a class="navigation-text select" href="#">Contacto</a></li>
+				    <li><a class="navigation-text select" href="#">Portafolio</a></li>
+					<li><a class="navigation-text" href="contacto.html">Contacto</a></li>
 				</ul>
 
 			</nav>
@@ -39,7 +41,7 @@
 
 	<div class="box-2">
 
-		<p class="title-2">¿Hablamos?</p>
+		<p class="title-2">Portafolio</p>
 
 		<p class="text-2">Estoy buscando mi primera oportunidad  como desarrollador web!
 		Si estas interesado en mi perfil , mis proyectos y/o experiencia,
@@ -48,38 +50,39 @@
 		
 	</div>
 
-	<div class="contact">
+	<div class="list-of-projects">
+		<nav class="horizontal-browser">
+			<ul>
+				<li><a href="">HTML</a></li>
+				<li><a href="">Css</a></li>
+				<li><a href="">Javascript</a></li>
+			</ul>
+		</nav>
+		
+		<div class="all-projects">
 
-		<img class="contact-decoration" src="../img/decoration-1.jpg">
+			<div class="project">
 
-		<div class="contact-data">
+				<img id="imagen" src="../img/portafolio/cinematico-3.png">
 
-			<p class="title icon-torsos-male-female"> Contacto:</p>
+				<div id="box" class="box-no-show">
+					<p>holdghgghkjhhkhkjhkjhkjhkjhhkhkjhkhk</p>
+				</div>
+				
+				<div class="project-text-box">
+					<p class="project-title">Cinematico</p>
 
-			<p class="text icon-email"> Correo</p>
-			
-			<a href="" class="text">matias.1993.romero@gmail.com</a>
-			<p class="text icon-linkedin-alt"> LinkedIn</p>
-
-			<img src="../img/QR.jpg">
-
-		</div>
-
-		<img class="contact-decoration" src="../img/decoration-2.jpg">
-
-	</div>
-
-	<div class="contact-form">
-		<form method="post">
-			<input class="input" type="text" placeholder="Nombre" name="name" required="" >
-			<input class="input" type="email" placeholder="Correo" name="email" required="" >
-			<input class="input" type="text" placeholder="Asunto" name="asunto" required="" >
-			<textarea class="textarea" placeholder="Escribe un mensaje" name="msj"></textarea required="" >
-
-			<div class="button"> 
-				<input type="submit" name="enviar">
+					<nav class="horizontal-browser">
+						<ul>
+							<li><a href="">HTML</a></li>
+							<li><a href="">Css</a></li>
+							<li><a href="">Javascript</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-		</form>
+			
+		</div>
 	</div>
 
 	<footer class="footer">
@@ -103,10 +106,7 @@
 	</footer>
 
 	<script src="../Orenji/script/menu.js"></script>
-
-	<?php 
-		include("correo.php");
-	?>
+	<script src="../script-code/prueba.js"></script>
 
 </body>
 </html>

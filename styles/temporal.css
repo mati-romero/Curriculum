@@ -1,0 +1,86 @@
+/*
+Gris e0d3c2
+Negro 504d48
+Rojo fc5439 
+Naranja ffba5f
+*/
+
+
+.horizontal-browser {
+	width: 100%;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+.horizontal-browser ul {
+	margin: 0;
+	padding: 0;
+}
+
+.horizontal-browser ul li {
+	list-style: none;
+	margin: 0;
+	padding: 5px;
+	display: inline-block;
+}
+
+.horizontal-browser ul li a {
+	color: #fc5439;
+	font-size: 10px;
+	font-family: Poppins-Medium;
+}
+
+/* projects */
+
+.list-of-projects {
+	padding: 30px;
+}
+
+.all-projects {
+	width: 100%;
+	padding: 0;
+}
+
+.project {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.project img {
+	width: 100%;
+	display: block;
+	background: #e0d3c2;
+	padding: 25px 15px 0px 15px;
+}
+
+.project-text-box {
+	padding: 10px;
+	background: #504d48;
+}
+
+.project-title {
+	font-family: Poppins-Medium;
+	color: #e0d3c2;
+	font-size: 10px;
+	padding: 0;
+	padding-left: 5px;
+}
+
+
+/*Prueba*/
+
+.box-no-show {
+	display: none;
+}
+
+.img-no-show {
+	display: none;
+}
+
+.box-show {
+	width: 100%;
+	display: block;
+	background: red;
+}
