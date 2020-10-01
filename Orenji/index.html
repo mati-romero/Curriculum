@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Curriculum</title>
+
+	<title>Orenji</title>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta name="theme-color" content="#504d48">
 
-	<link rel="shortcut icon" type="image/x-icon" href="img/icono.png">
-	<link rel="stylesheet" type="text/css" href="styles/ico-styles.css">
-	<link rel="stylesheet" type="text/css" href="Orenji/text-font/font-styles.css">
-	<link rel="stylesheet" type="text/css" href="Orenji/styles/body.css">
-	<link rel="stylesheet" type="text/css" href="Orenji/styles/navigation.css">
-	<link rel="stylesheet" type="text/css" href="Orenji/styles/box-implements.css">
-	<link rel="stylesheet" type="text/css" href="Orenji/styles/slides.css">
-	<link rel="stylesheet" type="text/css" href="Orenji/styles/briefcase.css">
-	<link rel="stylesheet" type="text/css" href="Orenji/styles/box.css">
-	<link rel="stylesheet" type="text/css" href="Orenji/styles/footer.css">
-	<link rel="stylesheet" type="text/css" href="Orenji/styles/banner.css">
+	<link rel="stylesheet" type="text/css" href="text-font/font-styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/body.css">
+	<link rel="stylesheet" type="text/css" href="styles/navigation.css">
+	<link rel="stylesheet" type="text/css" href="styles/form.css">
+	<link rel="stylesheet" type="text/css" href="styles/box-implements.css">
+	<link rel="stylesheet" type="text/css" href="styles/slides.css">
+	<link rel="stylesheet" type="text/css" href="styles/briefcase.css">
+	<link rel="stylesheet" type="text/css" href="styles/box.css">
+	<link rel="stylesheet" type="text/css" href="styles/footer.css">
+	<link rel="stylesheet" type="text/css" href="ico-styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/banner.css">
 
 </head>
-
 <body>
+
 	<div class="banner">
-		<img src="img/descarga.jpg">
+
+		<img src="img/orenji-img.png">
 
 		<div class="sentence">
 			<p class="title-1">´La sencillez es la máxima sofisticación.´</p>
@@ -44,11 +46,50 @@
 			</nav>
 			
 		</div>
+	</div>
+
+	<div class="contact-form">
+		<form method="post">
+			<input class="input" type="text" placeholder="Nombre" name="name" required="" >
+			<input class="input" type="email" placeholder="Correo" name="email" required="" >
+			<input class="input" type="text" placeholder="Asunto" name="asunto" required="" >
+			<textarea class="textarea" placeholder="Escribe un mensaje" name="msj"></textarea required="" >
+
+			<div class="button"> 
+				<input type="submit" name="enviar">
+			</div>
+		</form>
+	</div>
+
+	<div class="briefcase">
+
+		<div class="briefcase-text-box">
+			<p class="briefcase-title">Portafolio</p>
+
+			<p class="briefcase-text">
+				Te invito pasar por mi sección de portafolio para poder ver a mayor detalles los distintos proyectos en los que eh trabajado.
+			</p>
+
+			<div class="briefcase-button">
+				<a href="">Leer más</a>
+			</div>
+		</div>
+
+		<div class="slides-main">
+			<div class="slides">
+				<img src="img/orenji-img.png" alt="">
+				<img src="img/orenji-img.png" alt="">
+				<img src="img/orenji-img.png" alt="">
+				<img src="img/orenji-img.png" alt="">
+				<img src="img/orenji-img.png" alt="">
+			</div>
+		</div>
 		
 	</div>
 
 	<div class="box-3">
-		<img src="img/me.jpg">
+
+		<img src="img/orenji-img.png">
 
 		<div class="box-1">
 			<p class="title-1">¿Quién soy?</p>
@@ -61,39 +102,8 @@
 				<a href="">Sobre mí</a>
 			</div>
 		</div>
-		
-	</div>
-
-	<div class="briefcase-main">
-
-		<div class="briefcase">
-
-			<div class="briefcase-text-box">
-				<p class="briefcase-title">Portafolio</p>
-
-				<p class="briefcase-text">
-					Te invito pasar por mi sección de portafolio para poder ver a mayor detalles los distintos proyectos en los que eh trabajado.
-				</p>
-
-				<div class="briefcase-button">
-					<a href="">Leer más</a>
-				</div>
-			</div>
-
-			<div class="slides-main">
-				<div class="slides">
-					<img src="img/portafolio/game-console-2.png" alt="">
-					<img src="img/portafolio/pixel-draw-2.png" alt="">
-					<img src="img/portafolio/cinematico-5.png" alt="">
-					<img src="img/portafolio/pixel-draw-1.png" alt="">
-					<img src="img/portafolio/cinematico-6.png" alt="">
-				</div>
-			</div>
-			
-		</div>
 
 	</div>
-
 
 	<footer class="footer">
 
@@ -114,15 +124,13 @@
 		<a class="footer-text">matias.1993.romero@gmail.com</a>
 		<a class="footer-text" href="https://www.linkedin.com/in/matias-romero-851385198/" target="_blank" class="footer-text">Perfil de LinkedIn</a>
 
-		<img class="QR" src="img/QR.jpg">
+		<img class="QR" src="QR.jpg">
 
 
 	</footer>
 
-	<script src="Orenji/script/menu.js"></script>
-
-	<script src="Orenji/script/jquery-1.9.1.min.js"></script>
-	<script src="Orenji/script/jquery.slides.js"></script>
+	<script src="script/jquery-1.9.1.min.js"></script>
+	<script src="script/jquery.slides.js"></script>
 
 	<script>
  
@@ -149,6 +157,8 @@
 		});
 
 	</script>
+
+	<script src="script/menu.js"></script>
 
 </body>
 </html>
