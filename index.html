@@ -11,7 +11,7 @@
 <body>
 	<section class="main">
 
-		<section class="banner">
+		<section id="Inicio" class="banner">
 
 			<div class="banner-wall">
 
@@ -27,8 +27,8 @@
 					<ul>
 						<li><a href="#">INICIO</a></li>
 						<li><a href="#Sobre-mi">SOBRE MI</a></li>
-						<li><a href="">PORTAFOLIO</a></li>
-						<li><a href="">CONTACTO</a></li>
+						<li><a href="#Portafolio">PORTAFOLIO</a></li>
+						<li><a href="#Contacto">CONTACTO</a></li>
 					</ul>
 				</nav>
 				
@@ -48,7 +48,7 @@
 				<div class="perfil">
 
 					<div class="perfil-imagen">
-						<img src="img/me.jpg">
+						
 					</div>
 
 					<div class="perfil-info">
@@ -143,41 +143,82 @@
 			</div>
 		</section>
 
-		<section class="contacto">
+		<!-- Proyectos -->
+	    <section class="proyectos" id="Portafolio">
+	        <div class="contenedor">
 
-			<form method="post">
-				<input class="input" type="text" placeholder="Nombre" name="name" required="" >
-				<input class="input" type="email" placeholder="Correo" name="email" required="" >
-				<input class="input" type="text" placeholder="Asunto" name="asunto" required="" >
-				<textarea class="textarea" placeholder="Escribe un mensaje" name="msj"></textarea required="" >
-
-				<div class="button"> 
-					<input type="submit" name="enviar">
+	        	<div class="titulo">
+					<h2>Portafolio:</h2>
 				</div>
-			</form>
+
+	         	<div class="galeria-proyectos">
+		            <div class="proyecto">
+		              	<img src="img/proyecto1.jpg" alt="Proyecto" class="imagen-proyecto">
+		            </div>
+		            <div class="proyecto">
+		              	<img src="img/proyecto2.jpg" alt="Proyecto" class="imagen-proyecto">
+		            </div>
+		            <div class="proyecto">
+		              	<img src="img/proyecto3.jpg" alt="Proyecto" class="imagen-proyecto">
+		            </div>
+		            <div class="proyecto">
+		              	<img src="img/proyecto4.jpg" alt="Proyecto" class="imagen-proyecto">
+		            </div>
+		            <div class="proyecto">
+		              	<img src="img/proyecto5.jpg" alt="Proyecto" class="imagen-proyecto">
+		            </div>
+		            <div class="proyecto">
+		              	<img src="img/proyecto6.jpg" alt="Proyecto" class="imagen-proyecto">
+		            </div>
+	          	</div>
+	        </div> 
+	    </section>
+
+		<section id="Contacto" class="contacto">
+
+			<div class="contenedor">
+
+				<div class="titulo">
+					<h2>Contacto</h2>
+				</div>
+
+				<form method="post">
+					<input class="input" type="text" placeholder="Nombre" name="name" required="" >
+					<input class="input" type="email" placeholder="Correo" name="email" required="" >
+					<input class="input" type="text" placeholder="Asunto" name="asunto" required="" >
+					<textarea class="textarea" placeholder="Escribe un mensaje" name="msj"></textarea required="" >
+
+					<div class="button"> 
+						<input type="submit" name="enviar">
+					</div>
+				</form>
+				
+			</div>
+
 		</section>
 
 		<footer class="footer">
 
-			<a class="footer-text" href="">Inicio</a>
-			<a class="footer-text" href="">Sobre mi</a>
-			<a class="footer-text" href="">Portafolio</a>
-			<a class="footer-text icon-users"> Contactos</a>
-
 			<div class="footer-ico">
 
-				<a class="icon-users" href="" ></a>
-				<a class="icon-email" href="" ></a>
-				<a class="icon-file-pdf-o" href="" ></a>
-				<a class="icon-home" href="" ></a>
-
+				<a class="icon-home" title="Inicio" href="#Inicio"></a>
+				<a class="icon-users" title="Sobre-mi" href="#Sobre-mi" ></a>
+				<a class="icon-file-pdf-o" title="Portafolio" href="#Portafolio" ></a>
+				<a class="icon-email" title="Contacto" href="#Contacto"></a>
+				
 			</div>
 
-			<a class="footer-text">matias.1993.romero@gmail.com</a>
-			<a class="footer-text" href="https://www.linkedin.com/in/matias-romero-851385198/" target="_blank" class="footer-text">Perfil de LinkedIn</a>
+			<div class="footer-contactos">
 
-			<img class="QR" src="img/QR.jpg">
+				<h4 class="footer-text icon-users">Contactos</h4>
+				<a class="footer-text icon-facebook-squared" target="_blank" href="https://www.facebook.com/matias.romero.773981">Facebook</a>
+				<a class="footer-text" target="_blank" href="https://www.instagram.com/matias_j_romero?r=nametag">Instagram</a>
+				<p class="footer-text">matias.1993.romero@gmail.com</p>
+				<a class="footer-text" href="https://www.linkedin.com/in/matias-romero-851385198/" target="_blank" class="footer-text">Perfil de LinkedIn</a>
 
+				<img class="QR" src="img/QR.jpg">
+				
+			</div>
 
 		</footer>
 

@@ -74,3 +74,33 @@
 .icon-torsos-male-female:before {
   content: "\6c";
 }
+.icon-facebook-squared:before {
+  content: "\6d";
+}
+.icon-instagram:before {
+  content: "\6e";
+}
+.icon-phone-square:before {
+  content: "\6f";
+}
+.icon-email-mail-streamline:before {
+  content: "\70";
+}
+.icon-mark-github:before {
+  content: "\71";
+}
+.icon-computer-imac:before {
+  content: "\72";
+}
+.icon-arrow-up:before {
+  content: "\73";
+}
+.icon-user:before {
+  content: "\74";
+}
+.icon-user-1:before {
+  content: "\75";
+}
+.icon-google-buzz:before {
+  content: "\76";
+}
