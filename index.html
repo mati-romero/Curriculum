@@ -9,6 +9,14 @@
 	<link rel="stylesheet" type="text/css" href="text-font/font-styles.css">
 </head>
 <body>
+
+	    <!-- Boton "Volver Arriba" -->
+    <div class="btn-volver-arriba" id="btnVolverArriba">
+      	<a class="icon-home volver-arriba" title="Inicio" href="#Inicio"></a>
+		<a class="icon-user scroll-acercaDe" title="Sobre mi" href="#Sobre-mi" ></a>
+		<a class="icon-clipboard scroll-suave" title="Portafolio" href="#Portafolio" ></a>
+		<a class="icon-phone-square scroll-suave" title="Contacto" href="#Contacto"></a>
+    </div>
 	<section class="main">
 
 		<section id="Inicio" class="banner">
@@ -26,9 +34,9 @@
 				<nav>
 					<ul>
 						<li><a href="#">INICIO</a></li>
-						<li><a href="#Sobre-mi">SOBRE MI</a></li>
-						<li><a href="#Portafolio">PORTAFOLIO</a></li>
-						<li><a href="#Contacto">CONTACTO</a></li>
+						<li><a class="scroll-acercaDe" href="#Sobre-mi">SOBRE MI</a></li>
+						<li><a class="scroll-suave" href="#Portafolio">PORTAFOLIO</a></li>
+						<li><a class="scroll-suave" href="#Contacto">CONTACTO</a></li>
 					</ul>
 				</nav>
 				
@@ -200,7 +208,7 @@
 				<h4>Secciones</h4>
 
 				<a class="icon-home" title="Inicio" href="#Inicio"></a>
-				<a class="icon-user" title="Sobre-mi" href="#Sobre-mi" ></a>
+				<a class="icon-user" title="Sobre mi" href="#Sobre-mi" ></a>
 				<a class="icon-clipboard" title="Portafolio" href="#Portafolio" ></a>
 				<a class="icon-phone-square" title="Contacto" href="#Contacto"></a>
 				
@@ -230,5 +238,9 @@
 
 		
 	</section>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/scrollSuave.js"></script>
+
 </body>
 </html>
